@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>稍后提醒记录本 隐私政策</title>
+<style>
+  body{font-family:-apple-system,"HarmonyOS Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+       line-height:1.75;max-width:760px;margin:0 auto;padding:22px 20px 40px;
+       color:#1a1a1a;background:#fff;font-size:15px}
+  h1{font-size:21px;margin:0 0 6px}
+  h2{font-size:17px;margin-top:26px}
+  .meta{color:#667085;font-size:13px;margin-top:0}
+  .sum{background:#eef3fe;border-radius:10px;padding:14px 16px;margin:16px 0}
+  .warn{background:#fbf3f2;border-radius:10px;padding:12px 14px;margin:12px 0}
+  li{margin:5px 0}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}
+  th,td{border:1px solid #e1e5ec;padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f5f7fa}
+  code{background:#f0f2f5;padding:1px 4px;border-radius:4px;font-size:13px;word-break:break-all}
+  @media (prefers-color-scheme: dark){
+    body{background:#131313;color:#e8e6e3}
+    .sum{background:#1a2233}
+    .warn{background:#2b1d1c}
+    th,td{border-color:#353a42}
+    th{background:#1c1f24}
+    code{background:#22252a}
+    .meta{color:#9a9a9a}
+  }
+</style>
+</head>
+<body>
+<h1>稍后提醒记录本 · 隐私政策</h1>
+<p class="meta">生效日期：2026-09-28</p>
+
+<div class="sum">
+<h2 style="margin-top:0">一、一句话</h2>
+<p>稍后提醒记录本不申请网络访问权限，不需要注册账号。你记下的提醒、分享进来的文字和链接，只保存在这台设备上，我们看不到，也拿不到。</p>
+</div>
+
+<h2>二、我们处理哪些信息</h2>
+<p>只有你自己录入或分享进来的内容：</p>
+<ul>
+  <li><b>稍后看</b>：你从其他应用「分享」给本应用的一段文字或链接，或你在本应用里手动写下 / 粘贴的内容；你填的标题；你选的提醒时间。</li>
+  <li><b>到期提醒</b>：你填的名称（如某个会员、证件）、类别（订阅 / 试用 / 会员 / 证件）、到期日和提前几天提醒。</li>
+</ul>
+<p>本应用<b>不读取</b>你的支付记录、账单、短信，也不读取其他应用里的任何数据；到期信息全部由你手动填写。</p>
+<p>分享：只有在你主动于其他应用里点「分享」并选择本应用时，本应用才会收到那一段文字或链接。目前只接收文字和链接，不接收图片和文件。</p>
+<p>粘贴：本应用<b>不会在后台读取你的剪贴板</b>，也不申请读取剪贴板的权限。只有你在新建页或首页点系统的「粘贴」按钮时，才会读取这一次剪贴板里的文字（首页的「粘贴」用来导入「试用到期速算」算好的到期日，只认它的导入码，其他文字一律不保存）。</p>
+
+<h2>三、到点通知：锁屏时可能被旁人看到</h2>
+<div class="warn">
+<p><b>提醒标题会显示你自己填写的内容，锁屏可能被看到。</b>到点时，系统会发出一条通知，标题就是你填的标题（最多显示 20 个字），正文只有「到点了，点开回到原文」或「3 天后到期（10月10日）」这类固定句式，不包含你分享进来的原文和链接。</p>
+<p>通知可能出现在锁屏和通知栏上，身边的人可能看到。如果内容敏感，建议把标题换个只有你看得懂的说法。</p>
+<p><b>桌面卡片</b>：如果你把本应用的卡片添加到桌面，卡片默认只显示下一条提醒的时间和还有几条在等，<b>不显示标题</b>，也永远不显示你分享进来的原文和链接。只有你在「我的 → 桌面卡片显示标题」里主动打开后，卡片才会显示下一条的标题（最多 12 个字）；随时可以关掉。卡片内容只在这台设备上生成。</p>
+</div>
+
+<h2>四、我们不做什么（每一条都可验证）</h2>
+<ul>
+  <li>不申请网络访问权限。你可以在系统「应用信息 → 权限」里核对。</li>
+  <li>不上传、不同步、不备份到云端。无需注册，没有登录，没有服务器。</li>
+  <li>开发者无法访问你的任何数据——机制上做不到，不是「承诺不看」。</li>
+  <li>不抓取链接网页的内容：本应用只保存链接本身，打开链接时交给浏览器或对应的应用。</li>
+  <li>不读取通讯录、短信、位置，不收集设备标识用于画像，不使用人工智能模型处理你的内容。</li>
+  <li>不向任何第三方共享、转让、公开披露你的信息。</li>
+</ul>
+
+<h2>五、权限</h2>
+<table>
+  <tr><th>权限</th><th>用途</th><th>不给会怎样</th></tr>
+  <tr>
+    <td><code>ohos.permission.PUBLISH_AGENT_REMINDER</code>（代理提醒）</td>
+    <td>在你选的时间，由系统代为发出一条提醒通知</td>
+    <td>记录和查看照常，只是到点不会弹出通知</td>
+  </tr>
+</table>
+<p>本应用只申请这一项系统权限：代理提醒。除此之外，不申请网络访问、通讯录、位置、日历、相机、麦克风、存储、读取剪贴板等其他系统权限。你可以在系统「应用信息 → 权限」里核对。</p>
+<p>通知是否显示，还取决于你在系统设置里是否允许本应用发通知；没开时，本应用会如实提示「到点不会弹出」。</p>
+
+<h2>六、数据存在哪、怎么删</h2>
+<ul>
+  <li>存在本设备应用私有目录（数据库），其他应用无法读取。</li>
+  <li>导出：「我的 → 导出全部提醒（CSV）」，永久免费（买不买断都能用），保存位置由你在系统文件选择器里决定，本应用不申请存储权限。</li>
+  <li>删除：单条提醒在详情页「删除」；也可在「我的 → 清除全部提醒」一次清空。删除和清空不可恢复，系统里挂着的提醒会一并取消。</li>
+  <li>卸载应用即删除全部数据。</li>
+</ul>
+
+<h2>七、付费</h2>
+<ul>
+  <li>免费可以同时有 3 条在等的提醒（稍后看和到期提醒合计），一直可用，不是试用。</li>
+  <li>一次性买断（¥18）后不限条数。不是订阅、不会自动续费、没有广告。</li>
+  <li>导出 CSV 永久免费，不受付费限制。</li>
+  <li>付费墙不锁已有提醒：达到免费上限后，已经记下的提醒照常到点通知，也照样可以查看、完成和删除；还没到点的提醒也能改时间。</li>
+  <li>支付经华为应用内支付完成（华为收银台由系统服务提供并自行联网），本应用不接触也不存储你的支付信息。</li>
+</ul>
+
+<h2>八、未成年人</h2>
+<p>本应用面向成年人。若你未满 14 周岁，请在监护人指导下使用。</p>
+
+<h2>九、联系我们</h2>
+<p>客服邮箱：x2ai_tech@163.com</p>
+
+<h2>十、变更</h2>
+<p>政策变更会随版本更新发布，并在应用内「我的 → 隐私政策」保持常驻可查阅入口。</p>
+</body>
+</html>
